@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Pizza Order</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form class="input">
+                    <select class="form-control" id="size">
+                      <option value="Small">Small</option>
+                      <option value="Medium">Medium</option>
+                      <option value="Large">Large</option>
+                      <option value="XL">XL</option>
+                  </select><br>
+                    <div class="toppings">
+                        <input type="checkbox" name="toppings" value="Pepperoni">Pepperoni<br>
+                        <input type="checkbox" name="toppings" value="Sausage">Sausage<br>
+                        <input type="checkbox" name="toppings" value="Chicken">Chicken<br>
+                        <input type="checkbox" name="toppings" value="Bacon">Bacon<br>
+                        <input type="checkbox" name="toppings" value="Mushrooms">Mushrooms<br>
+                        <input type="checkbox" name="toppings" value="Ham">Ham<br>
+                        <input type="checkbox" name="toppings" value="Beef">Beef<br>
+                        <input type="checkbox" name="toppings" value="Pineapple">Pineapple<br>
+                        <input type="checkbox" name="toppings" value="Peppers">Peppers<br>
+                        <input type="checkbox" name="toppings" value="Onions">Onions<br>
+                    </div><br>
+                    <label for="quantity">How Many?</label>
+                    <input type="text" value="" id="quantity"><br>
+                    <button type="submit" name="button" class="btn btn-info">Submit Order</button>
+                </form>
+            </div>
+
+            <div class="col-md-6 result">
+                <ul id="orderList">
+
+                </ul><br>
+                <p>Total Cost: $<span id="total">0</span>.00</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

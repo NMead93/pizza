@@ -1,0 +1,7 @@
+.result p {
+    float: right;
+}
+
+#orderList li:hover {
+    background-color: #FCEADE
+}
