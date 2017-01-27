@@ -5,3 +5,7 @@
 #orderList li:hover {
     background-color: #FCEADE
 }
+
+.title {
+    text-align: center
+}
