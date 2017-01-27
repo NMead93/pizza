@@ -45,10 +45,11 @@ $(function() {
         totalPrice += newPizza.price;
         $('#total').text(totalPrice)
 
-        $('li').click(function() {
+        $('li').off().on('click', function() {
+            console.log(parseInt($(this).val()))
             totalPrice -= parseInt($(this).val());
-            console.log
             $('#total').text(totalPrice)
+            $(this).off("click")
             $(this).remove();
         })
     })
