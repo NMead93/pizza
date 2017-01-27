@@ -19,8 +19,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _User can make multiple order submissions_
     -Input: (Medium, mushroom and pepperoni, 3) and (Large, chicken, 1)-
     -Output: (Medium, mushroom and pepperoni, 3, $42.00) (Large, chicken, 1, $15.00)-
-* _easy-to-understand_
-* _format_
+* _User can see a total price at the bottom_
+* _User can add and subtract orders_
+* _User can add subtract orders with a dynamic total price_
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
